@@ -17,10 +17,6 @@ html {
   height: 100%
 }
 
-body {
-  background-color: #f7f7f7;
-}
-
 section {
   display: block
 }
@@ -145,9 +141,7 @@ button {
 .w-slider {
   position: relative;
   height: 300px;
-  background: #ddd;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent
+  background-image: linear-gradient(-90deg, #f7f7f7, #ddd, #f7f7f7);
 }
 
 .w-slide,.w-slider-mask {
@@ -1983,7 +1977,7 @@ button {
 }
 
 .hero-v5-slide._1 {
-  background-image: url(https://home.sandrofelder.ch/assets/images/me-1.jpg);
+  background-image: url(../images/me-1.jpg);
   background-size: contain
 }
 
